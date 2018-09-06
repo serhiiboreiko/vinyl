@@ -4,6 +4,7 @@ const path = require('path');
 const fs = require('fs');
 const watch = require('gulp-watch');
 const browserSync = require('browser-sync').create();
+const deploy = require('gulp-gh-pages');
 
 // Data
 const swig = require('gulp-swig');
@@ -61,6 +62,15 @@ gulp.task('bs', () => {
 
   watch(BUILD_PATH + '/**/*', browserSync.reload);
 });
+
+gulp.task('deploy', gulp.series('build', () =>
+  gulp.src('build/**/*')
+    .pipe(deploy({
+      branch: 'gh-pages',
+      push: true,
+      message: `Update ${moment(new Date()).format('lll')}`
+    }))
+));
 
 gulp.task('build', gulp.parallel('styles', 'assets', 'pug'));
 
