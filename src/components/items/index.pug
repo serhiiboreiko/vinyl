@@ -4,4 +4,4 @@ include item.pug
   #items-before
   .items-content
     each record, index in records
-      +item(index + 1, record.cover, record.artist, record.album, record.link)
+      +item(index + 1, record.cover, record.artist, record.album, record.link, record.year)

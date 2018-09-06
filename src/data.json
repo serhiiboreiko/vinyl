@@ -10,6 +10,14 @@
       "value": "Already have"
     }
   ],
+  "activeItem": {
+    "artist": "The Black Keys",
+    "album": "Turn Blue",
+    "link": "https://www.amazon.com/Turn-Blue-Black-Keys/dp/B00J7UL8QY/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536226949&sr=8-1",
+    "cover": "./images/turn-blue.jpg",
+    "year": 2014,
+    "category": "to-buy"
+  },
   "records": [
     {
       "artist": "The Black Keys",

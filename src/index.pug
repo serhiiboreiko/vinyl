@@ -12,12 +12,12 @@ html
 
       title Vinyl
     body
-      .activeTitle Trouble Will Find Me
+      .activeTitle#activeTitle Trouble Will Find Me
       include components/header/index.pug
       .content
         .left
           include components/categories/index.pug
           include components/items/index.pug
-        .right.
-          active
+        .right
+          include components/activeItem/index.pug
       script(src="./index.js")

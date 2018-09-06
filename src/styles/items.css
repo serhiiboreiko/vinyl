@@ -74,3 +74,5 @@
   color: #fff;
   transition: 0.5s;
 }
+
+.item .year { display: none; }

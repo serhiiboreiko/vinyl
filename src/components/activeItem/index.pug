@@ -1,0 +1,8 @@
+.activeItem
+  img#activeCover(src=activeItem.cover)
+  h3.artist#activeArtist #{activeItem.artist}
+  h2.album
+    span#activeAlbum #{activeItem.album}
+    a(href=link, target="_blank", id="activeLink")
+      i.fas.fa-link
+  p.year#activeYear #{activeItem.year}

@@ -1,0 +1,39 @@
+.activeItem { width: 100%; }
+
+.activeItem img {
+  width: 250px;
+  height: 250px;
+}
+
+.activeItem .artist {
+  margin-top: 24px;
+  font-size: 16px;
+  color: #9e988b;
+}
+
+.activeItem .album {
+  margin-top: 12px;
+  font-size: 30px;
+  color: #494746;
+  display: flex;
+  align-items: center;
+}
+
+.activeItem .album a {
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 32px;
+  color: #9e988b;
+  transition: 0.5s;
+}
+
+.activeItem .album a:hover {
+  transition: 0.5s;
+  color: #494746;
+}
+
+.activeItem .year {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #9e988b;
+}

@@ -35,9 +35,12 @@ body {
   width: calc(50% - 96px);
 }
 
+.right { width: 35%; }
+
 /* #e4d9c6 main back */
 /* #14181b main back */
 /* #88898d logo text */
 /* #3f4040 menu items */
 /* #424140 main text */
 /* #4a4a4b sub text */
+/* #494746 dark text */
