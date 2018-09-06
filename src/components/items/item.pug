@@ -1,0 +1,13 @@
+mixin item(index, cover, artist, album, link)
+  .item
+    if index > 9
+      span.number #{index}
+    else
+      span.number 0#{index}
+    img(src=cover).cover
+    .info
+      .album #{album}
+      .artist #{artist}
+    .link
+      a(href=link, target="_blank")
+        i.fas.fa-link

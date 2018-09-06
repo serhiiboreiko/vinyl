@@ -1,3 +1,127 @@
 {
-  "foo": "bar"
+  "logo": "./logo.png",
+  "categories": [
+    {
+      "key": "to-buy",
+      "value": "To buy"
+    },
+    {
+      "key": "already-have",
+      "value": "Already have"
+    }
+  ],
+  "records": [
+    {
+      "artist": "The Black Keys",
+      "album": "Turn Blue",
+      "link": "https://www.amazon.com/Turn-Blue-Black-Keys/dp/B00J7UL8QY/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536226949&sr=8-1",
+      "cover": "./images/turn-blue.jpg",
+      "year": 2014,
+      "category": "to-buy"
+    },
+    {
+      "artist": "Alt-J",
+      "album": "An Awesome Wave",
+      "link": "https://www.amazon.com/Awesome-Wave-ALT-J/dp/B007RX330C/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227007&sr=8-2",
+      "cover": "./images/an-awesome-wave.jpg",
+      "year": 2012,
+      "category": "to-buy"
+    },
+    {
+      "artist": "The Black Keys",
+      "album": "Brother",
+      "link": "https://www.amazon.com/Brothers-2-LP-Black-Keys/dp/B003F5WOEC/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227051&sr=8-1",
+      "cover": "./images/brothers.jpg",
+      "year": 2010,
+      "category": "to-buy"
+    },
+    {
+      "artist": "The xx",
+      "album": "XX",
+      "link": "https://www.amazon.com/XX-Vinyl/dp/B002DESIF0/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227083&sr=8-2",
+      "cover": "./images/xx.jpg",
+      "year": 2009,
+      "category": "to-buy"
+    },
+    {
+      "artist": "Alt-J",
+      "album": "Relaxer",
+      "link": "https://www.amazon.com/RELAXER-Gram-Vinyl-Digital-Download/dp/B06XG7L2DB/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227148&sr=8-1",
+      "cover": "./images/relaxer.jpg",
+      "year": 2017,
+      "category": "to-buy"
+    },
+    {
+      "artist": "Frank Sinatra",
+      "album": "Ultimate Sinatra",
+      "link": "https://www.amazon.com/Ultimate-Sinatra-2-LP-Frank/dp/B00U1Z5NAQ/ref=sr_1_3?ie=UTF8&qid=1536227215&sr=8-3&keywords=Frank+Sinatra+vinyl",
+      "cover": "./images/ultimate-sinatra.jpg",
+      "year": 2015,
+      "category": "to-buy"
+    },
+    {
+      "artist": "Depeche Mode",
+      "album": "Spirit",
+      "link": "https://www.amazon.com/Spirit-Depeche-Mode/dp/B01N37D61L/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227301&sr=8-13",
+      "cover": "./images/spirit.jpg",
+      "year": 2017,
+      "category": "to-buy"
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "album": "AM",
+      "link": "https://www.amazon.com/AM-Arctic-Monkeys/dp/B00DKY4NBA/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227400&sr=8-1",
+      "cover": "./images/am.jpg",
+      "year": 2013,
+      "category": "to-buy"
+    },
+    {
+      "artist": "The National",
+      "album": "Trouble Will Find Me",
+      "link": "https://www.amazon.com/Trouble-Will-Find-Me-National/dp/B00BYISRC0/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227511&sr=8-1",
+      "cover": "./images/trouble-will-find-me.jpg",
+      "year": 2013,
+      "category": "to-buy"
+    },
+    {
+      "artist": "Nothing But Thieves",
+      "album": "Broken Machine",
+      "link": "https://www.amazon.com/Broken-Machine-Nothing-But-Thieves/dp/B0711BVHKB/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227579&sr=8-1",
+      "cover": "./images/broken-machine.jpg",
+      "year": 2017,
+      "category": "to-buy"
+    },
+    {
+      "artist": "Nothing But Thieves",
+      "album": "Nothing But Thieves",
+      "link": "https://www.amazon.com/Nothing-But-Thieves/dp/B01ACMPGGI/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227579&sr=8-2",
+      "cover": "./images/nothing-but-thieves.jpg",
+      "year": 2015,
+      "category": "to-buy"
+    },
+    {
+      "artist": "Motorama",
+      "album": "Alps",
+      "link": "https://www.amazon.com/Alps-Motorama/dp/B00CC2JU50/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227685&sr=8-1",
+      "cover": "./images/alps.jpg",
+      "year": 2010,
+      "category": "to-buy"
+    },
+    {
+      "artist": "JUNIORE",
+      "album": "Ouh La La",
+      "link": "https://www.amazon.com/Ouh-JUNIORE/dp/B01N5TTRXB/ref=sr_1_1?ie=UTF8&qid=1536254193&sr=8-1&keywords=JUNIORE",
+      "cover": "./images/ouh-la-la.jpg",
+      "year": 2017,
+      "category": "to-buy"
+    },
+    {
+      "artist": "Mac DeMarco",
+      "album": "2",
+      "link": "https://www.amazon.com/Ouh-JUNIORE/dp/B01N5TTRXB/ref=sr_1_1?ie=UTF8&qid=1536254193&sr=8-1&keywords=JUNIORE",
+      "cover": "./images/2.jpg",
+      "year": 2012,
+      "category": "to-buy"
+    }
+  ]
 }

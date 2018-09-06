@@ -1,4 +1,43 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(110deg, #14181b 0%, #14181b 50%, #e4d9c6 50%, #e4d9c6 100%);
+  color: #fff;
+  font-family: "Gotham Rounded";
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px;
+}
+
+.activeTitle {
+  z-index: -1;
+  position: absolute;
+  color: rgba(0, 0, 0, .6);
+  font-size: 150px;
+  top: 30%;
+  left: 96px;
+  font-weight: bold;
+  font-family: 'Arial';
+  width: calc(50% - 96px);
+}
+
+/* #e4d9c6 main back */
+/* #14181b main back */
+/* #88898d logo text */
+/* #3f4040 menu items */
+/* #424140 main text */
+/* #4a4a4b sub text */

@@ -1,0 +1,22 @@
+.categories {
+  display: flex;
+  align-items: center;
+}
+
+.categories .category {
+  color: #3f4040;
+  padding-right: 32px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.categories .category:hover {
+  color: #88898d;
+  transition: 0.5s;
+}
+
+.categories .category.active {
+  color: #fff;
+  transition: 0.5s;
+}

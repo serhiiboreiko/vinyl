@@ -20,7 +20,7 @@ const cleanCSS = require('gulp-clean-css');
 // Constants
 const DATA_PATH = './src/data.json';
 const PUG_PATH = './src/**/*.pug';
-const STYLES_PATH = './src/styles/**/*.css';
+const STYLES_PATH = './src/styles/*.css';
 const ASSETS_PATH = './src/assets/**/*';
 const BUILD_PATH = 'build';
 
