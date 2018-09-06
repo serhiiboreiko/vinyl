@@ -1,13 +1,13 @@
 mixin item(index, cover, artist, album, link)
-  .item
+  .item(id="item-" + index)
     if index > 9
       span.number #{index}
     else
       span.number 0#{index}
-    img(src=cover).cover
+    img(src=cover, id="cover-" + index).cover
     .info
-      .album #{album}
-      .artist #{artist}
+      .album(id="album-" + index) #{album}
+      .artist(id="artist-" + index) #{artist}
     .link
-      a(href=link, target="_blank")
+      a(href=link, target="_blank", id="link-" + index)
         i.fas.fa-link

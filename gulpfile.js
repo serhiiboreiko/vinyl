@@ -76,6 +76,7 @@ gulp.task('watch', () => {
   watch(PUG_PATH, gulp.series('pug'));
   watch(STYLES_PATH, gulp.series('styles'));
   watch(ASSETS_PATH, gulp.series('assets'));
+  watch(JS_PATH, gulp.series('js'));
 });
 
 gulp.task('bs', () => {

@@ -1,7 +1,26 @@
 .items {
   margin-top: 48px;
-  height: calc(100vh - 218px - 48px);
-  overflow-y: auto;
+  height: calc(100vh - 218px);
+  position: relative;
+}
+
+.items .items-content {
+  overflow: auto;
+  height: 100%;
+  padding-bottom: 48px;
+}
+
+#items-before {
+  filter: blur(20px);
+  opacity: 0.5;
+  padding-top: 218px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  height: 218px;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
 }
 
 .item {
@@ -12,6 +31,8 @@
   position: relative;
   cursor: pointer;
 }
+
+.item:first-child { margin-top: 0; }
 
 .item .number {
   width: 50px;

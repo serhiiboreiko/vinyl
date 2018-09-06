@@ -1,5 +1,7 @@
 include item.pug
 
-.items
-  each record, index in records
-    +item(index + 1, record.cover, record.artist, record.album, record.link)
+.items#items
+  #items-before
+  .items-content
+    each record, index in records
+      +item(index + 1, record.cover, record.artist, record.album, record.link)
