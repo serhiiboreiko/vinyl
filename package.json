@@ -1,0 +1,19 @@
+{
+  "name": "vinyl",
+  "version": "1.0.0",
+  "description": "Just for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jestersunborn/vinyl.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jestersunborn/vinyl/issues"
+  },
+  "homepage": "https://github.com/jestersunborn/vinyl#readme"
+}
