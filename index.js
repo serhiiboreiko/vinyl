@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var copyItemsForBlur=function(){var o=document.querySelector("#items .items-content"),t=document.getElementById("items-before");t.innerHTML=o.innerHTML,o.onscroll=function(e){t.scrollTop=o.scrollTop}};copyItemsForBlur();
