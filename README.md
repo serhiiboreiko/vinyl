@@ -1,2 +1,0 @@
-# vinyl
-Just for fun
