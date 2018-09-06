@@ -17,11 +17,17 @@ const pug = require('gulp-pug');
 const concatCss = require('gulp-concat-css');
 const cleanCSS = require('gulp-clean-css');
 
+// JS
+const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
+const babel = require('gulp-babel');
+
 // Constants
 const DATA_PATH = './src/data.json';
 const PUG_PATH = './src/**/*.pug';
 const STYLES_PATH = './src/styles/*.css';
 const ASSETS_PATH = './src/assets/**/*';
+const JS_PATH = './src/scripts/**/*.js';
 const BUILD_PATH = 'build';
 
 // Helpers
@@ -55,6 +61,17 @@ gulp.task('assets', () =>
     .pipe(gulp.dest(BUILD_PATH))
 );
 
+gulp.task('js', () =>
+  gulp.src(JS_PATH)
+    .pipe(concat('index.js'))
+    .pipe(babel({
+      presets: ['@babel/preset-env'],
+      plugins: [['transform-object-rest-spread']],
+    }))
+    .pipe(uglify())
+    .pipe(gulp.dest(BUILD_PATH))
+);
+
 gulp.task('watch', () => {
   watch(PUG_PATH, gulp.series('pug'));
   watch(STYLES_PATH, gulp.series('styles'));
@@ -72,7 +89,7 @@ gulp.task('bs', () => {
   watch(BUILD_PATH + '/**/*', browserSync.reload);
 });
 
-gulp.task('build', gulp.parallel('styles', 'assets', 'pug'));
+gulp.task('build', gulp.parallel('styles', 'assets', 'js', 'pug'));
 
 gulp.task('deploy', gulp.series('build', (cb) =>
   ghpages.publish(path.join(process.cwd(), 'build'), cb)
