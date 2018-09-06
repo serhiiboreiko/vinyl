@@ -1,6 +1,6 @@
 .items {
-  margin-top: 96px;
-  height: calc(100vh - 338px - 96px);
+  margin-top: 48px;
+  height: calc(100vh - 218px - 48px);
   overflow-y: auto;
 }
 

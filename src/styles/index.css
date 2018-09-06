@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  background: linear-gradient(110deg, #14181b 0%, #14181b 50%, #e4d9c6 50%, #e4d9c6 100%);
+  background: linear-gradient(105deg, #14181b 0%, #14181b 50%, #e4d9c6 50%, #e4d9c6 100%);
   color: #fff;
   font-family: "Gotham Rounded";
 }
@@ -20,16 +20,16 @@ body {
 .content {
   display: flex;
   justify-content: space-between;
-  padding: 96px;
+  padding: 48px;
 }
 
 .activeTitle {
   z-index: -1;
   position: absolute;
-  color: rgba(0, 0, 0, .6);
-  font-size: 150px;
+  color: rgba(0, 0, 0, .2);
+  font-size: 100px;
   top: 30%;
-  left: 96px;
+  left: 48px;
   font-weight: bold;
   font-family: 'Arial';
   width: calc(50% - 96px);
