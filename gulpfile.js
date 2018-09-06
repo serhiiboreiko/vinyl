@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 const watch = require('gulp-watch');
 const browserSync = require('browser-sync').create();
-const deploy = require('gulp-gh-pages');
+const ghpages = require('gh-pages');
 
 // Data
 const swig = require('gulp-swig');
@@ -17,13 +17,22 @@ const pug = require('gulp-pug');
 const concatCss = require('gulp-concat-css');
 const cleanCSS = require('gulp-clean-css');
 
-
 // Constants
 const DATA_PATH = './src/data.json';
 const PUG_PATH = './src/**/*.pug';
 const STYLES_PATH = './src/styles/**/*.css';
 const ASSETS_PATH = './src/assets/**/*';
 const BUILD_PATH = 'build';
+
+// Helpers
+const getFormatedDate = () => {
+  const date = new Date();
+  const YYYY = date.getFullYear();
+  const DD = date.getDate();
+  const MM = date.getMonth() + 1;
+
+  return `${MM}/${DD}/${YYYY}`;
+}
 
 // Tasks
 gulp.task('pug', () =>
@@ -63,15 +72,10 @@ gulp.task('bs', () => {
   watch(BUILD_PATH + '/**/*', browserSync.reload);
 });
 
-gulp.task('deploy', gulp.series('build', () =>
-  gulp.src('build/**/*')
-    .pipe(deploy({
-      branch: 'gh-pages',
-      push: true,
-      message: `Update ${moment(new Date()).format('lll')}`
-    }))
-));
-
 gulp.task('build', gulp.parallel('styles', 'assets', 'pug'));
+
+gulp.task('deploy', gulp.series('build', (cb) =>
+  ghpages.publish(path.join(process.cwd(), 'build'), cb)
+));
 
 gulp.task('default', gulp.series('build', gulp.parallel('bs', 'watch')));
