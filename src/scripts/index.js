@@ -41,22 +41,6 @@ const getAverageRGB = (imgEl) => {
   return rgb;
 };
 
-const toDataURL = url =>
-  fetch(url)
-    .then(response => response.blob())
-    .then(blob => new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onload = () => resolve(reader.result);
-      reader.onerror = reject;
-      reader.readAsDataURL(blob);
-    }));
-
-const getImageElement = (base64) => {
-  const image = document.createElement('img');
-  image.src = base64;
-  return image;
-};
-
 const getShadow = ({ r, g, b }) =>
   `0 0.3em 0.5em -0.2em rgba(${r}, ${g}, ${b}, .5),
   0 1em 2em -0.75em rgba(${r}, ${g}, ${b}, .45),

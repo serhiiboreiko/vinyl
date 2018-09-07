@@ -130,6 +130,62 @@
       "cover": "./images/2.jpg",
       "year": 2012,
       "category": "to-buy"
+    },
+    {
+      "artist": "The National",
+      "album": "Sleep Well Beast",
+      "link": "https://www.amazon.com/Sleep-Well-Beast-White-Vinyl/dp/B0716RP8XG/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536306687&sr=8-1",
+      "cover": "./images/sleep-well-beast.jpg",
+      "year": 2017,
+      "category": "already-have"
+    },
+    {
+      "artist": "London Grammar",
+      "album": "Truth Is a Beautiful Thing",
+      "link": "https://www.amazon.com/Truth-Beautiful-Thing-London-Grammar/dp/B06ZYC6PCF/ref=sr_1_1?ie=UTF8&qid=1536307142&sr=8-1&keywords=london+grammar",
+      "cover": "./images/truth-is-a-beautiful-thing.jpg",
+      "year": 2017,
+      "category": "already-have"
+    },
+    {
+      "artist": "Chris Rea",
+      "album": "Shamrock diaries",
+      "link": "https://www.amazon.com/Shamrock-diaries-Vinyl-record-Vinyl-LP/dp/B000091ENJ/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536307233&sr=8-1",
+      "cover": "./images/shamrock-diaries.jpg",
+      "year": 1985,
+      "category": "already-have"
+    },
+    {
+      "artist": "Foals",
+      "album": "What Went Down",
+      "link": "https://www.amazon.com/What-Went-Down-Foals/dp/B00ZH1JAQM/ref=sr_1_1?ie=UTF8&qid=1536307348&sr=8-1&keywords=foals",
+      "cover": "./images/what-went-down.jpg",
+      "year": 2015,
+      "category": "already-have"
+    },
+    {
+      "artist": "Alt-J",
+      "album": "This Is All Yours",
+      "link": "https://www.amazon.com/Yours-Colored-Vinyl-Digital-Download/dp/B00MCAH9KA/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536307458&sr=8-4",
+      "cover": "./images/this-is-all-yours.jpg",
+      "year": 2014,
+      "category": "already-have"
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "link": "https://www.amazon.com/Favourite-Nightmare-Standard-Version-Explicit/dp/B00122G00Y/ref=sr_1_3?ie=UTF8&qid=1536307519&sr=8-3&keywords=arctic+monkeys&dpID=51IhuoK2b5L&preST=_SX342_QL70_&dpSrc=srch",
+      "cover": "./images/favourite-worst-nightmare.jpg",
+      "year": 2010,
+      "category": "already-have"
+    },
+    {
+      "artist": "Edith Piaf",
+      "album": "Non, je ne regrette rien",
+      "link": "https://www.amazon.com/Edith-Piaf-Olympia-1961-regrette/dp/B00CKF3IKW/ref=sr_1_6?ie=UTF8&qid=1536307588&sr=8-6&keywords=edith+piaf+olympia",
+      "cover": "./images/non-je-ne-regrette-rien.jpg",
+      "year": 1970,
+      "category": "already-have"
     }
   ]
 }
