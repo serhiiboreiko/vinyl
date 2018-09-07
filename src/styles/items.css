@@ -4,10 +4,18 @@
   position: relative;
 }
 
+.items.all .to-buy,
+.items.all .already-have { display: flex; }
+
+.items.to-buy .to-buy { display: flex; }
+.items.to-buy .already-have { display: none; }
+
+.items.already-have .to-buy { display: none; }
+.items.already-have .already-have { display: flex; }
+
 .items .items-content {
   overflow: auto;
   height: 100%;
-  padding-bottom: 48px;
 }
 
 #items-before {
@@ -24,15 +32,13 @@
 }
 
 .item {
-  margin-top: 32px;
+  margin-bottom: 32px;
   display: flex;
   align-items: center;
   transition: 0.5s;
   position: relative;
   cursor: pointer;
 }
-
-.item:first-child { margin-top: 0; }
 
 .item .number {
   width: 50px;

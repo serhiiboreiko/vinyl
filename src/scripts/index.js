@@ -60,8 +60,6 @@ const copyItemsForBlur = () => {
   };
 };
 
-copyItemsForBlur();
-
 const setActiveItem = (item) => {
   const imgEl = item.querySelector('img')
   const img = imgEl.src;
@@ -84,6 +82,23 @@ const setActiveItem = (item) => {
   document.getElementById('activeTitle').innerHTML = album;
 };
 
+const selectCategory = (category) => {
+  const active = document.querySelector('.categories .category.active');
+  if (active) {
+    active.classList.remove('active');
+  }
+
+  const items = document.querySelector('.items');
+
+  items.classList.remove('all', 'to-buy', 'already-have');
+  items.classList.add(category.id);
+
+  category.classList.add('active');
+};
+
+// Init
+copyItemsForBlur();
+
 const items = document.querySelectorAll('.items .items-content .item');
 
 items.forEach(item => {
@@ -91,3 +106,11 @@ items.forEach(item => {
 });
 
 setActiveItem(document.querySelector('.items .items-content .item:first-child'));
+
+const categories = document.querySelectorAll('.categories .category');
+
+categories.forEach(category => {
+  category.onclick = () => {
+    selectCategory(category);
+  };
+});

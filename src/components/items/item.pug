@@ -1,5 +1,5 @@
-mixin item(index, cover, artist, album, link, year)
-  .item(id="item-" + index)
+mixin item(index, cover, artist, album, link, year, category)
+  div(class="item " + category, id="item-" + index)
     if index > 9
       span.number #{index}
     else

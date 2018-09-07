@@ -2,12 +2,19 @@
   "logo": "./logo.png",
   "categories": [
     {
+      "key": "all",
+      "value": "All",
+      "active": true
+    },
+    {
       "key": "to-buy",
-      "value": "To buy"
+      "value": "To buy",
+      "active": false
     },
     {
       "key": "already-have",
-      "value": "Already have"
+      "value": "Already have",
+      "active": false
     }
   ],
   "activeItem": {
