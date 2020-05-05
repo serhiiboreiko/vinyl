@@ -23,7 +23,7 @@
     "link": "https://www.amazon.com/Turn-Blue-Black-Keys/dp/B00J7UL8QY/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536226949&sr=8-1",
     "cover": "./images/turn-blue.jpg",
     "year": 2014,
-    "category": "to-buy"
+    "category": "already-have"
   },
   "records": [
     {
@@ -32,14 +32,14 @@
       "link": "https://www.amazon.com/Turn-Blue-Black-Keys/dp/B00J7UL8QY/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536226949&sr=8-1",
       "cover": "./images/turn-blue.jpg",
       "year": 2014,
-      "category": "to-buy"
+      "category": "already-have"
     },
     {
-      "artist": "Alt-J",
-      "album": "An Awesome Wave",
-      "link": "https://www.amazon.com/Awesome-Wave-ALT-J/dp/B007RX330C/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227007&sr=8-2",
-      "cover": "./images/an-awesome-wave.jpg",
-      "year": 2012,
+      "artist": "The Black Keys",
+      "album": "Let's Rock",
+      "link": "https://www.amazon.com/Lets-Rock-LP-Black-Keys/dp/B07QZ462PY/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1588712679&sr=1-1",
+      "cover": "./images/lets-rock.jpg",
+      "year": 2019,
       "category": "already-have"
     },
     {
@@ -51,12 +51,20 @@
       "category": "to-buy"
     },
     {
-      "artist": "The xx",
-      "album": "XX",
-      "link": "https://www.amazon.com/XX-Vinyl/dp/B002DESIF0/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227083&sr=8-2",
-      "cover": "./images/xx.jpg",
-      "year": 2009,
-      "category": "to-buy"
+      "artist": "Alt-J",
+      "album": "An Awesome Wave",
+      "link": "https://www.amazon.com/Awesome-Wave-ALT-J/dp/B007RX330C/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227007&sr=8-2",
+      "cover": "./images/an-awesome-wave.jpg",
+      "year": 2012,
+      "category": "already-have"
+    },
+    {
+      "artist": "Alt-J",
+      "album": "This Is All Yours",
+      "link": "https://www.amazon.com/Yours-Colored-Vinyl-Digital-Download/dp/B00MCAH9KA/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536307458&sr=8-4",
+      "cover": "./images/this-is-all-yours.jpg",
+      "year": 2014,
+      "category": "already-have"
     },
     {
       "artist": "Alt-J",
@@ -67,11 +75,11 @@
       "category": "to-buy"
     },
     {
-      "artist": "Frank Sinatra",
-      "album": "Ultimate Sinatra",
-      "link": "https://www.amazon.com/Ultimate-Sinatra-2-LP-Frank/dp/B00U1Z5NAQ/ref=sr_1_3?ie=UTF8&qid=1536227215&sr=8-3&keywords=Frank+Sinatra+vinyl",
-      "cover": "./images/ultimate-sinatra.jpg",
-      "year": 2015,
+      "artist": "The xx",
+      "album": "XX",
+      "link": "https://www.amazon.com/XX-Vinyl/dp/B002DESIF0/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227083&sr=8-2",
+      "cover": "./images/xx.jpg",
+      "year": 2009,
       "category": "to-buy"
     },
     {
@@ -91,12 +99,36 @@
       "category": "to-buy"
     },
     {
+      "artist": "Arctic Monkeys",
+      "album": "Favourite Worst Nightmare",
+      "link": "https://www.amazon.com/Favourite-Nightmare-Standard-Version-Explicit/dp/B00122G00Y/ref=sr_1_3?ie=UTF8&qid=1536307519&sr=8-3&keywords=arctic+monkeys&dpID=51IhuoK2b5L&preST=_SX342_QL70_&dpSrc=srch",
+      "cover": "./images/favourite-worst-nightmare.jpg",
+      "year": 2010,
+      "category": "to-buy"
+    },
+    {
       "artist": "The National",
       "album": "Trouble Will Find Me",
       "link": "https://www.amazon.com/Trouble-Will-Find-Me-National/dp/B00BYISRC0/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536227511&sr=8-1",
       "cover": "./images/trouble-will-find-me.jpg",
       "year": 2013,
-      "category": "to-buy"
+      "category": "already-have"
+    },
+    {
+      "artist": "The National",
+      "album": "Sleep Well Beast",
+      "link": "https://www.amazon.com/Sleep-Well-Beast-White-Vinyl/dp/B0716RP8XG/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536306687&sr=8-1",
+      "cover": "./images/sleep-well-beast.jpg",
+      "year": 2017,
+      "category": "already-have"
+    },
+    {
+      "artist": "The National",
+      "album": "I Am Easy To Find",
+      "link": "https://www.amazon.com/I-Am-Easy-Find-National/dp/B07PKWZKG2/ref=sr_1_4?dchild=1&keywords=The+National+I+am+easy+to+find&qid=1588711871&sr=8-4",
+      "cover": "./images/i-am-easy-to-find.jpg",
+      "year": 2019,
+      "category": "already-have"
     },
     {
       "artist": "Nothing But Thieves",
@@ -123,14 +155,6 @@
       "category": "to-buy"
     },
     {
-      "artist": "JUNIORE",
-      "album": "Ouh La La",
-      "link": "https://www.amazon.com/Ouh-JUNIORE/dp/B01N5TTRXB/ref=sr_1_1?ie=UTF8&qid=1536254193&sr=8-1&keywords=JUNIORE",
-      "cover": "./images/ouh-la-la.jpg",
-      "year": 2017,
-      "category": "to-buy"
-    },
-    {
       "artist": "Mac DeMarco",
       "album": "2",
       "link": "https://www.amazon.com/Ouh-JUNIORE/dp/B01N5TTRXB/ref=sr_1_1?ie=UTF8&qid=1536254193&sr=8-1&keywords=JUNIORE",
@@ -139,28 +163,12 @@
       "category": "to-buy"
     },
     {
-      "artist": "The National",
-      "album": "Sleep Well Beast",
-      "link": "https://www.amazon.com/Sleep-Well-Beast-White-Vinyl/dp/B0716RP8XG/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536306687&sr=8-1",
-      "cover": "./images/sleep-well-beast.jpg",
-      "year": 2017,
-      "category": "already-have"
-    },
-    {
       "artist": "London Grammar",
       "album": "Truth Is a Beautiful Thing",
       "link": "https://www.amazon.com/Truth-Beautiful-Thing-London-Grammar/dp/B06ZYC6PCF/ref=sr_1_1?ie=UTF8&qid=1536307142&sr=8-1&keywords=london+grammar",
       "cover": "./images/truth-is-a-beautiful-thing.jpg",
       "year": 2017,
-      "category": "already-have"
-    },
-    {
-      "artist": "Chris Rea",
-      "album": "Shamrock diaries",
-      "link": "https://www.amazon.com/Shamrock-diaries-Vinyl-record-Vinyl-LP/dp/B000091ENJ/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536307233&sr=8-1",
-      "cover": "./images/shamrock-diaries.jpg",
-      "year": 1985,
-      "category": "already-have"
+      "category": "to-buy"
     },
     {
       "artist": "Foals",
@@ -171,27 +179,67 @@
       "category": "already-have"
     },
     {
-      "artist": "Alt-J",
-      "album": "This Is All Yours",
-      "link": "https://www.amazon.com/Yours-Colored-Vinyl-Digital-Download/dp/B00MCAH9KA/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1536307458&sr=8-4",
-      "cover": "./images/this-is-all-yours.jpg",
-      "year": 2014,
+      "artist": "Foals",
+      "album": "Holy Fire",
+      "link": "https://www.amazon.com/Holy-Fire-Vinyl-Foals/dp/B00A8OQBD8/ref=sr_1_1?keywords=foals+holy+fire&qid=1588698774&sr=8-1",
+      "cover": "./images/holy-fire.jpg",
+      "year": 2013,
       "category": "already-have"
     },
     {
-      "artist": "Arctic Monkeys",
-      "album": "Favourite Worst Nightmare",
-      "link": "https://www.amazon.com/Favourite-Nightmare-Standard-Version-Explicit/dp/B00122G00Y/ref=sr_1_3?ie=UTF8&qid=1536307519&sr=8-3&keywords=arctic+monkeys&dpID=51IhuoK2b5L&preST=_SX342_QL70_&dpSrc=srch",
-      "cover": "./images/favourite-worst-nightmare.jpg",
-      "year": 2010,
+      "artist": "Foals",
+      "album": "Everything Not Saved Will Be Lost Part 1",
+      "link": "https://www.amazon.com/Foals/dp/B07MJMCFQ9/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1588711598&sr=8-1",
+      "cover": "./images/everything-not-saved-will-be-lost-1.jpg",
+      "year": 2019,
       "category": "already-have"
     },
     {
-      "artist": "Edith Piaf",
-      "album": "Non, je ne regrette rien",
-      "link": "https://www.amazon.com/Edith-Piaf-Olympia-1961-regrette/dp/B00CKF3IKW/ref=sr_1_6?ie=UTF8&qid=1536307588&sr=8-6&keywords=edith+piaf+olympia",
-      "cover": "./images/non-je-ne-regrette-rien.jpg",
-      "year": 1970,
+      "artist": "Pixies",
+      "album": "Doolittle",
+      "link": "https://www.amazon.com/DOOLITTLE-Vinyl-PIXIES/dp/B0002ONAM4/ref=sr_1_1?crid=1OTXP2DTJTCVY&dchild=1&keywords=pixies+doolittle+vinyl&qid=1588711679&sprefix=Pixies+doolli%2Caps%2C257&sr=8-1",
+      "cover": "./images/doolittle.jpg",
+      "year": 1989,
+      "category": "already-have"
+    },
+    {
+      "artist": "Morphine",
+      "album": "Cure For Pain",
+      "link": "https://www.amazon.com/Cure-Pain-180-Gram-Vinyl/dp/B00699G4LK/ref=sr_1_1?dchild=1&keywords=morphine+cure+for+pain+vinyl&qid=1588711730&sr=8-1",
+      "cover": "./images/cure-for-pain.jpg",
+      "year": 1993,
+      "category": "already-have"
+    },
+    {
+      "artist": "Twenty one Pilots",
+      "album": "Trench",
+      "link": "https://www.amazon.com/Twenty-One-Pilots-Trench-Limited/dp/B07JYLWGNZ/ref=sr_1_3?dchild=1&keywords=twenty+one+pilots+trench&qid=1588711794&sr=8-3",
+      "cover": "./images/trench.jpg",
+      "year": 2018,
+      "category": "already-have"
+    },
+    {
+      "artist": "Billie Eilish",
+      "album": "When We All Fall Asleep, Where Do We Go?",
+      "link": "https://www.amazon.com/WHEN-FALL-ASLEEP-WHERE-Yellow/dp/B07N3RG76T/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=1588712067&sr=8-2",
+      "cover": "./images/when-we-all-fall-asleep-where-do-we-go.jpg",
+      "year": 2019,
+      "category": "already-have"
+    },
+    {
+      "artist": "The White Stripes",
+      "album": "Elephant",
+      "link": "https://www.amazon.com/Elephant-Vinyl-White-Stripes/dp/B00008ACIN/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=&sr=",
+      "cover": "./images/elephant.jpg",
+      "year": 2003,
+      "category": "already-have"
+    },
+    {
+      "artist": "Вагоновожатые",
+      "album": "Референс",
+      "link": "https://www.discogs.com/ru/%D0%92%D0%B0%D0%B3%D0%BE%D0%BD%D0%BE%D0%B2%D0%BE%D0%B6%D0%B0%D1%82%D1%8B%D0%B5-%D0%A0%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%81/release/12978198",
+      "cover": "./images/referens.jpg",
+      "year": 2018,
       "category": "already-have"
     }
   ]
